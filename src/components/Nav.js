@@ -5,19 +5,19 @@ import Account from './Account'
 
 const Nav = () => {
   return (
-    <div>
+    <>
       <nav className={classes.nav}>
         <ul>
           <li>
             <a href="index.html" className={classes.brand}>
               <img src={logo} alt="Learn with Sumit Logo" />
-              <h3>Learn with Sumit</h3>
+              <h3>Learn with Sayed</h3>
             </a>
           </li>
         </ul>
         <Account />
       </nav>
-    </div>
+    </>
   )
 }
 
