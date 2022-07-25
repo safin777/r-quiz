@@ -18,7 +18,7 @@ const Signup = () => {
             <TextInput type="password" placeholder="Enter password" icon="lock"/>
             <TextInput type="password" placeholder=" Confirm Name" icon="lock_clock"/>
             <Checkbox  text="I agree to the Terms &amp; Conditions"/>
-            <Button>Submit Now</Button>
+            <Button><span>Submit Now</span></Button>
             <div className="info">
               Already have an account? <a href="login.html">Login</a> instead.
             </div>
