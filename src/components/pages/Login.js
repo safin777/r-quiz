@@ -18,7 +18,7 @@ const Login = () => {
             icon="alternate_email"
           />
           <TextInput type="password" placeholder="Enter password" icon="lock" />
-          <Button>Submit Now</Button>
+          <Button><span>Submit Now</span></Button>
         </Form>
       </div>
     </>
