@@ -1,14 +1,14 @@
 import React from 'react'
-import Video from '../Videos'
+import Videos from '../Videos'
 
 
 
 const Home = () => {
   return (
     <>
-      <Video />
-      <Video/>
-      <Video/>
+      <Videos />
+      <Videos/>
+      
     </>
       
    
